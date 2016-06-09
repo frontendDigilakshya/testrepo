@@ -1,0 +1,30 @@
+.header-banner{
+
+	.left-div,
+		.right-div{
+			display:none;
+		}
+
+	&.hb-feedback{
+		.right-img-div{	
+			margin-top:20px;
+			margin-left: 0;
+			text-align:center;
+			
+			img{
+				max-width:400px;
+			}
+		}
+		}
+	&.hb-thankYou1{
+			 
+			.right-img-div{
+				margin-left: 0;
+				text-align:center;
+					img{
+					max-width:400px;
+				}
+			}
+		}
+	
+}

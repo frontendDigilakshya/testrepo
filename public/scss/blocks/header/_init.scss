@@ -1,0 +1,18 @@
+/*  Use "desktop" for default styling, then override with tablet & mobile */
+@import "desktop";
+
+@media screen and (max-width: $tablet-bp) {
+    @import "tablet";
+}
+
+@media screen and (max-width: $tablet-bp991) {
+    @import "tablet991";
+}
+
+@media screen and (max-width: $mobile-bp) {
+    @import "mobile";
+}
+
+@media screen and (max-width: $mobile320-bp) {
+    @import "mobile320";
+}

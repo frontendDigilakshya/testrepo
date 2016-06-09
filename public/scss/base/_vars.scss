@@ -1,0 +1,44 @@
+// media queries here
+$tablet-bp: '1199px';
+$tablet-bp991: '991px';
+$mobile-bp: '767px';
+$mobile320-bp: '479px';
+
+//vars
+
+$white: #fff;
+$blue: #1b3a51;
+$gold: #e0a156; 
+$black: #000;
+$red: #dd0330;
+$orange: #fe9500;
+$gray: #919191;
+$light-grey: #efeeee; 
+$grey02: #d3d8da;
+$grey03: #8d8d8d;
+$gray04: #fafafa;
+
+
+
+// mixins
+@mixin clearfix() {
+    &:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}
+
+@mixin opacity ( $value: 0.5 ) {
+    opacity: $value;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" $value * 100 ")";
+    filter: alpha(opacity= $value * 100 );
+    zoom: 1;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

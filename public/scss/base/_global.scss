@@ -1,0 +1,27 @@
+a{
+	outline:none;
+}
+
+body{
+	background:#b4e6e5;
+	color:#231f20;
+} 
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+
+article{
+	padding:60px 0;
+}
+
+
+@media screen and (max-width:767px) {
+    .container{
+		    padding-right: 20px;
+    		padding-left: 20px;
+	}
+	 
+}

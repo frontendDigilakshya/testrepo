@@ -1,0 +1,20 @@
+.header-banner{
+	padding: 40px 0 0 0;
+	
+	.right-img-div {
+		max-height: 330px;
+	}
+	
+	&.hb2{
+		.right-img-div {
+			max-height: 330px;
+			    margin-top: 40px;
+		}
+	}
+	&.hb-feedback {
+		 .right-img-div {
+				max-height: 250px;
+			    margin-top: 40px;
+		}
+	}
+}

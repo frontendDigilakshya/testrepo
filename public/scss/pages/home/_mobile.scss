@@ -1,0 +1,78 @@
+.box-deisgn1{
+	margin-bottom:25px;
+	
+	.b-text h3 {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	
+
+}
+.form-design1{
+	font-size:14px;
+	
+	.mobile-center{
+		.custom-yes-no{
+				display:table;
+				margin:0 auto;
+				margin-bottom:10px;
+			 
+		}
+	}
+	
+	.form-group {
+		margin-bottom: 25px;
+	}
+	
+	.form-title{
+		font-size: 25px;
+		line-height: 33px;
+	}
+	
+}
+.custom-checkBox{
+	 
+	[type="checkbox"]:not(:checked) + label,
+	[type="checkbox"]:checked + label {
+	 
+	  line-height:23px; 
+	}
+}
+
+.footer-3box-section{
+	padding: 20px 0;
+		
+	 h2 { 
+		font-size: 24px; 
+	}
+}
+
+.header-banner {
+	h3{
+		    font-size: 16px;
+	}
+	h1 { 
+		font-size: 31px; 
+		line-height: 41px; 
+	}
+}
+
+
+.thank-you-article {
+	padding: 30px 0 0 0;
+	
+	.thanks-right-div{
+		text-align:center;
+		margin-left: 0;
+    	margin-top: 40px;
+	}
+	.thanks-left-img{
+		    overflow: visible;
+	}
+	 .thanks-right-div .bottom-box-div{
+	 	margin:0 auto;
+		margin-bottom: 30px;
+		
+	 }
+}

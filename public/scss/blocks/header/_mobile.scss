@@ -1,0 +1,30 @@
+.main-header{
+	text-align:center;
+	    padding: 20px 0; 
+}
+ 
+.header-banner{
+		padding: 50px 0 0 0;
+	
+		
+		
+		
+	&.hb-feedback h1{
+		font-size: 44px;
+    	line-height: 53px;
+		    margin-top: 15px;
+	}
+	
+	&.hb-thankYou1{
+		 h1{
+		font-size: 23px;
+		line-height: 33px;
+		margin-top: 10px;
+		}
+		.right-img-div{
+			display:none;
+		}
+	}
+	
+	
+}
